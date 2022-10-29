@@ -86,12 +86,14 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task__input:focus {
+.task__input
+:focus {
   color: #333;
 }
 
 /* New Task */
-.section-header[for='new-task'] {
+.section-header
+[for='new-task'] {
   display: block;
   margin: 0 0 20px;
 }
@@ -117,7 +119,9 @@
   font-size: 18px;
   width: 226px;
 }
-.task .task__input {
+
+.task
+.task__input {
   width: 226px;
 }
 .task__remove-img {
@@ -125,7 +129,9 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.task__remove-img:hover {
+
+.task__remove-img
+:hover {
   transform: rotateZ(0);
 }
 
