@@ -41,6 +41,14 @@
   outline: none;
 }
 
+.add-form {
+  margin: 1em 0px;
+}
+
+.task-row-wrapper {
+  padding: 20px 0px;
+}
+
 .add-form__wrapper {
   display: flex;
 }
