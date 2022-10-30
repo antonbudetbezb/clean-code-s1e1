@@ -46,7 +46,8 @@
 }
 
 .task-row-wrapper {
-  padding: 20px 0px;
+  display: flex;
+  padding: 20px 0px 0px;
 }
 
 .add-form__wrapper {
@@ -138,8 +139,7 @@
   transition: transform 200ms ease-in;
 }
 
-.task__remove-img
-:hover {
+.task__remove-img:hover {
   transform: rotateZ(0);
 }
 
@@ -164,6 +164,6 @@
 }
 
 .task__input_new-task {
-  display: inline-block;
+  display: block;
   width: 318px;
 }
