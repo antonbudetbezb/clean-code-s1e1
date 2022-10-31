@@ -53,6 +53,7 @@
 .add-form__wrapper {
   display: flex;
 }
+
 .tasklist {
   margin:0;
   padding: 0;
@@ -68,9 +69,11 @@
   cursor: pointer;
   outline:none;
 }
+
 .button:hover {
-    color: #3a3A3a;
+  color: #3a3A3a;
 }
+
 /* Heading */
 .section-header {
   color: #333;
@@ -101,8 +104,7 @@
 }
 
 /* New Task */
-.section-header
-[for='new-task'] {
+.section-header[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -133,6 +135,7 @@
 .task__input {
   width: 226px;
 }
+
 .task__remove-img {
   height: 2em;
   transform: rotateZ(45deg);
